@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application Title="MEI">
+  <Options>
+    <LayoutManagerOptions RequiredFieldMark="*" />
+  </Options>
+  <SchemaModules>
+    <SchemaModule Name="CloneObjectModule" Version="18.2.4.0" IsNewNode="True" />
+    <SchemaModule Name="SchedulerModuleBase" Version="18.2.4.0" IsNewNode="True" />
+    <SchemaModule Name="SystemModule" Version="18.2.4.0" IsNewNode="True" />
+  </SchemaModules>
+  <Views>
+    <DetailView Id="Employee_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors">
+            <LayoutGroup Id="MEISysBaseObject" ShowCaption="False" Index="0" RelativeSize="100" Direction="Horizontal" IsNewNode="True" Removed="True">
+              <TabbedGroup Id="Item3" CaptionLocation="Top" Index="0" RelativeSize="51.2448132780083" IsNewNode="True">
+                <LayoutGroup Id="Item2" ShowCaption="True" CaptionLocation="Top" Index="0" RelativeSize="100" Caption="Created" IsNewNode="True">
+                  <LayoutItem Id="CreateBy" ViewItem="CreateBy" Index="0" RelativeSize="16.842105263157894" IsNewNode="True" />
+                  <LayoutItem Id="CreateDate" ViewItem="CreateDate" Index="1" RelativeSize="83.15789473684211" IsNewNode="True" />
+                </LayoutGroup>
+              </TabbedGroup>
+              <TabbedGroup Id="Item5" CaptionLocation="Top" Index="1" RelativeSize="48.7551867219917" IsNewNode="True">
+                <LayoutGroup Id="Item4" ShowCaption="True" CaptionLocation="Top" Index="0" RelativeSize="100" Caption="Modified" IsNewNode="True">
+                  <LayoutItem Id="ModifiedBy" ViewItem="ModifiedBy" Index="0" RelativeSize="16.842105263157894" IsNewNode="True" />
+                  <LayoutItem Id="ModifiedDate" ViewItem="ModifiedDate" Index="1" RelativeSize="83.15789473684211" IsNewNode="True" />
+                </LayoutGroup>
+              </TabbedGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="MEISysBaseObject_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" RelativeSize="100">
+          <LayoutGroup Id="SimpleEditors" RelativeSize="100">
+            <TabbedGroup Id="Item1" CaptionLocation="Top" Index="0" RelativeSize="100" IsNewNode="True">
+              <LayoutGroup Id="MEISysBaseObject" ShowCaption="False" Index="0" RelativeSize="100" Direction="Horizontal" IsNewNode="True">
+                <TabbedGroup Id="Item3" CaptionLocation="Top" Index="0" RelativeSize="51.2448132780083" IsNewNode="True">
+                  <LayoutGroup Id="Item2" ShowCaption="True" CaptionLocation="Top" Index="0" RelativeSize="100" Caption="Created" IsNewNode="True">
+                    <LayoutItem Id="CreateBy" ViewItem="CreateBy" Index="0" RelativeSize="16.842105263157894" IsNewNode="True" />
+                    <LayoutItem Id="CreateDate" ViewItem="CreateDate" Index="1" RelativeSize="83.15789473684211" IsNewNode="True" />
+                  </LayoutGroup>
+                </TabbedGroup>
+                <TabbedGroup Id="Item5" CaptionLocation="Top" Index="1" RelativeSize="48.7551867219917" IsNewNode="True">
+                  <LayoutGroup Id="Item4" ShowCaption="True" CaptionLocation="Top" Index="0" RelativeSize="100" Caption="Modified" IsNewNode="True">
+                    <LayoutItem Id="ModifiedBy" ViewItem="ModifiedBy" Index="0" RelativeSize="16.842105263157894" IsNewNode="True" />
+                    <LayoutItem Id="ModifiedDate" ViewItem="ModifiedDate" Index="1" RelativeSize="83.15789473684211" IsNewNode="True" />
+                  </LayoutGroup>
+                </TabbedGroup>
+              </LayoutGroup>
+            </TabbedGroup>
+            <LayoutGroup Id="MEISysBaseObject" Removed="True" />
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+  </Views>
+</Application>

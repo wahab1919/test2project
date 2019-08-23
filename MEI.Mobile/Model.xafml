@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <NavigationItems>
+    <Items>
+      <Item Id="Default">
+        <Items>
+          <Item Id="TaxType_ListView" ViewId="TaxType_ListView" ObjectKey="" IsNewNode="True" />
+        </Items>
+      </Item>
+    </Items>
+  </NavigationItems>
+  <Options DataAccessMode="Client" />
+  <SchemaModules>
+    <SchemaModule Name="CloneObjectModule" Version="18.2.4.0" IsNewNode="True" />
+    <SchemaModule Name="SchedulerModuleBase" Version="18.2.4.0" IsNewNode="True" />
+    <SchemaModule Name="SystemMobileModule" Version="18.2.4.0" IsNewNode="True" />
+    <SchemaModule Name="SystemModule" Version="18.2.4.0" IsNewNode="True" />
+  </SchemaModules>
+</Application>
